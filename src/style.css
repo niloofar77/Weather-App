@@ -1,0 +1,54 @@
+.container {
+  margin: 20px;
+}
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.card-img-top {
+  text-align: center;
+}
+#searchBar {
+  margin: 20px;
+}
+#weatherCard {
+  padding: 20px;
+}
+.card {
+  margin: 10px !important;
+}
+.time {
+  color: gray;
+}
+.p1 {
+  font-weight: bold;
+}
+#searchBar {
+  margin: 10px 0px;
+}
+.moreInfo {
+  color: rgb(77, 77, 77);
+}
+.buttons {
+  text-align: right;
+}
+.celsiusTemp {
+  color: gray;
+  text-decoration: none;
+}
+.celsiusTemp:focus {
+  color: blue;
+}
+.fahrenheitTemp {
+  color: gray;
+  text-decoration: none;
+}
+.fahrenheitTemp:focus {
+  color: blue;
+}
+.line {
+  border-left: 1px solid black;
+  height: 10px;
+}
+/* .card {
+  width: 10rem;
+} */
