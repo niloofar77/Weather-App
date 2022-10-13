@@ -20,125 +20,122 @@
   </head>
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-8">
-          <h3 id="time">18 September 2022</h3>
+      <div class="weatherApp">
+        <div class="row">
+          <div class="col-8">
+            <h3 id="time">18 September 2022</h3>
+          </div>
         </div>
-        <div class="col-4">
-          <p class="p1">Partly cloudy</p>
+        <div class="row">
+          <div class="col-4">
+            <h1 id="cityName">Paris,France</h1>
+            <!-- <div class="line"></div> -->
+            <a class="celsiusTemp" href="" id="celsius">c</a>
+            <a href="" class="fahrenheitTemp" id="fahrenheit">f</a>
+          </div>
+          <div class="col-4">
+            <h1 id="temperature">10 °C</h1>
+          </div>
+          <div class="col-4">
+            <ul>
+              <li id="humidity">Humidity: 48%</li>
+              <li id="wind">Wind: 5 m/s</li>
+              <li>Partly cloudy</li>
+            </ul>
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="col-4">
-          <h1 id="cityName">Paris,France</h1>
-          <!-- <div class="line"></div> -->
-          <a class="celsiusTemp" href="" id="celsius">c</a>
-          <a href="" class="fahrenheitTemp" id="fahrenheit">f</a>
+        <form id="searchBar">
+          <input
+            type="search"
+            placeholder="Search location here...."
+            id="searchInput"
+          />
+          <button type="submit" class="btn btn-primary" id="searchButton">
+            <i class="fas fa-search"> </i>
+          </button>
+        </form>
+        <div class="buttons">
+          <button type="button" class="btn btn-success" id="current">
+            Current
+          </button>
+          <div class="col-sm-2">
+            <div class="card text-center" id="weatherCard">
+              <img src="images/cloudy.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Sunday</h5>
+                <hr />
+                <p class="card-text time">15:00</p>
+                <p class="card-text">19°8°</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-4">
-          <h1 id="temperature">10 °C</h1>
-        </div>
-        <div class="col-4">
-          <p id="humidity">
-            Humidity: 48%
-            <br />
-            <p id="wind">
-            Wind: 5 m/s
-            </p>
-          </p>
-        </div>
-      </div>
-      <form id="searchBar">
-        <input
-          type="search"
-          placeholder="Search location here...."
-          id="searchInput"
-        />
-        <button type="submit" class="btn btn-primary" id="searchButton">
-          <i class="fas fa-search"> </i>
-        </button>
-      </form>
-      <div class="buttons">
-        <button type="button" class="btn btn-success" id="current">
-          Current
-        </button>
-      </div>
 
-      <div class="row">
-        <div class="col-sm-2">
-          <div class="card text-center" id="weatherCard">
-            <img src="images/cloudy.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Sunday</h5>
-              <hr />
-              <p class="card-text time">15:00</p>
-              <p class="card-text">19°8°</p>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="card text-center" id="weatherCard2">
+              <img src="images/sun.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Sunday</h5>
+                <hr />
+                <p class="card-text time">15:00</p>
+                <p class="card-text">19°8°</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-center" id="weatherCard2">
-            <img src="images/sun.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Sunday</h5>
-              <hr />
-              <p class="card-text time">15:00</p>
-              <p class="card-text">19°8°</p>
+          <div class="col-sm-2">
+            <div class="card text-center">
+              <img src="images/rainy-day.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Monday</h5>
+                <hr />
+                <p class="card-text time">18:00</p>
+                <p class="card-text">19° 7°</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-center">
-            <img src="images/rainy-day.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Monday</h5>
-              <hr />
-              <p class="card-text time">18:00</p>
-              <p class="card-text">19° 7°</p>
+          <div class="col-sm-2">
+            <div class="card text-center">
+              <img src="images/cloudy.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Monday</h5>
+                <hr />
+                <p class="card-text time">18:00</p>
+                <p class="card-text">19° 7°</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-center">
-            <img src="images/cloudy.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Monday</h5>
-              <hr />
-              <p class="card-text time">18:00</p>
-              <p class="card-text">19° 7°</p>
+          <div class="col-sm-2">
+            <div class="card text-center">
+              <img src="images/sun.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Monday</h5>
+                <hr />
+                <p class="card-text time">18:00</p>
+                <p class="card-text">19° 7°</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-center">
-            <img src="images/sun.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Monday</h5>
-              <hr />
-              <p class="card-text time">18:00</p>
-              <p class="card-text">19° 7°</p>
+          <div class="col-sm-2">
+            <div class="card text-center">
+              <img src="images/rainy-day.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Monday</h5>
+                <hr />
+                <p class="card-text time">18:00</p>
+                <p class="card-text">19° 7°</p>
+              </div>
             </div>
           </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-center">
-            <img src="images/rainy-day.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Monday</h5>
-              <hr />
-              <p class="card-text time">18:00</p>
-              <p class="card-text">19° 7°</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="card text-center">
-            <img src="images/cloudy.png" class="card-img-top" alt="..." />
-            <div class="card-body">
-              <h5 class="card-title">Monday</h5>
-              <hr />
-              <p class="card-text time">18:00</p>
-              <p class="card-text">19° 7°</p>
+          <div class="col-sm-2">
+            <div class="card text-center">
+              <img src="images/cloudy.png" class="card-img-top" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title">Monday</h5>
+                <hr />
+                <p class="card-text time">18:00</p>
+                <p class="card-text">19° 7°</p>
+              </div>
             </div>
           </div>
         </div>

@@ -1,8 +1,16 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.weatherApp {
+  border: 1px solid gray;
+  border-radius: 16px;
+  padding: 20px;
+}
 .container {
   margin: 20px;
 }
-body {
-  font-family: Georgia, "Times New Roman", Times, serif;
+ul {
+  list-style: none;
 }
 .card-img-top {
   text-align: center;
