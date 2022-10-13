@@ -9,6 +9,9 @@ body {
 .container {
   margin: 20px;
 }
+a {
+  text-decoration: none;
+}
 ul {
   list-style: none;
 }
